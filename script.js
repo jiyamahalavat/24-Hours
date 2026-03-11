@@ -22,7 +22,7 @@ text3.textContent = "You must stop the launch."
 choice1.textContent = "Investigate Hacker Signal"
 choice2.textContent = "Break Into Missile Facility"
 
-image.src = "hq.jpg" 
+image.src = "headquarters.jpg" 
 
 }
 
@@ -131,7 +131,7 @@ text1.textContent = "Wrong code."
 text2.textContent = "The system locks you out."
 text3.textContent = "The countdown continues."
 
-image.src = "fail.jpg"
+image.src = "wrong code.jpeg"
 
 }
 
