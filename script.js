@@ -77,16 +77,12 @@ choice2.onclick = sabotageEnding; // evil ending
 
 //SCENE 4
 function bunkerEntrance(){
-
 text1.textContent = "You find the hidden bunker.";
 text2.textContent = "Armed guards block the door.";
 text3.textContent = "Act fast.";
-
 image.src = "bunker.jpg";
-
 choice1.textContent = "Sneak Past";
 choice2.textContent = "Fight Guards";
-
 choice1.onclick = elevatorScene; // continue mission
 choice2.onclick = injuryEnding; // failure
 
@@ -107,16 +103,12 @@ choice2.onclick = injuryEnding;
 
 //SCENE 6
 function rooftop(){
-
 text1.textContent = "You reach the rooftop.";
 text2.textContent = "A rescue helicopter flies overhead.";
 text3.textContent = "Jump or signal the pilot?";
-
 image.src = "rooftop.jpg";
-
 choice1.textContent = "Jump To Next Building";
 choice2.textContent = "Signal Helicopter";
-
 choice1.onclick = controlRoom;
 choice2.onclick = controlRoom;
 
@@ -155,7 +147,7 @@ function heroEnding(){
 text1.textContent = "Missiles stop.";
 text2.textContent = "World saved.";
 text3.textContent = "You are a hero.";
-image.src = "goodending.jpg";
+image.src = "goodending.jpeg";
 endGame();
 }
 
